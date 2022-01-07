@@ -11,6 +11,7 @@ import SwiftUI
 /// Wraps content within a full-screen (edge-to-edge) background
 @available(iOS 13.0, *)
 @available(OSX 10.15, *)
+@available(watchOS 6.0, *)
 public struct AppBackgroundView<Content, S>: View where Content : View, S: ShapeStyle {
     
     /// The fill for the background
